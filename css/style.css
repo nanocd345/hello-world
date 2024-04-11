@@ -15,9 +15,10 @@ body{
     background: var(--color-header);
     width: 100%;
     height: 8vw;
-    box-shadow: 0 0 2px 3px rgb(80, 48, 0);
+    box-shadow: 0 0 2px 3px rgb(26, 0, 37);
     position: fixed;
     position: relative;
+    color: white;
 }
 
 .texto__header{
@@ -45,12 +46,13 @@ body{
 
 .barra__lateral{
     background: var(--color-header);
-    box-shadow: 0 0 2px 3px rgb(80, 48, 0);
+    box-shadow: 0 0 2px 3px rgb(26, 0, 37);
     width: 14vw;
     height: 85vh;
     position: fixed;
     z-index: -1;
     padding: 1.5vw;
+    color: white;
 }
 
 .seccion__1,

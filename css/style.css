@@ -48,15 +48,29 @@ body{
     background: var(--color-header);
     box-shadow: 0 0 2px 3px rgb(26, 0, 37);
     width: 14vw;
-    height: 85vh;
+    height: 100%;
     position: fixed;
     z-index: -1;
     padding: 1.5vw;
     color: white;
 }
 
+.barra__lateral h1{
+    font-size: 1.5vw;
+}
+
 .seccion__1,
 .seccion__2,
 .seccion__3{
     display: flex;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+
+.seccion__1 a,
+.seccion__2 a,
+.seccion__3 a{
+    margin-left: 1vw;
+    text-decoration: none;
+    color: white;
 }
